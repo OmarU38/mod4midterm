@@ -1,0 +1,8 @@
+prefix=/home/omaru/Desktop/Robotics/ROS/ws_midterm/devel
+
+Name: greendetector_pkg
+Description: Description of greendetector_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

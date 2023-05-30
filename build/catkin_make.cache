@@ -1,0 +1,2 @@
+greendetector_pkg
+-DCATKIN_DEVEL_PREFIX=/home/omaru/Desktop/Robotics/ROS/ws_midterm/devel -DCMAKE_INSTALL_PREFIX=/home/omaru/Desktop/Robotics/ROS/ws_midterm/install -G Unix Makefiles

@@ -7,3 +7,6 @@ El siguiente repositorio contiene un proyecto de interfaces desarrollado para cu
 
 ## Diagrama de DFD
 ![BPMN 2 0 (1)](https://github.com/OmarU38/mod4midterm/assets/65744355/d17b8ac0-8237-47b9-b100-046e4b8ca1ab)
+
+## Sobre la documentación en Doxygen
+Doxygen nos permite documentar de forma efectiva y estandarizada documentos importantes de proyectos como el presentado, sin embargo, es importante reconocer que no siempre es adecuado el realizar este tipo de documentación ya que hay archivos que siguen una construcción específica como los archivos .proto o los generados a través del mismo; los cuales se usaron mucho durante el proyecto; lo cual podria generar problemas de compatibilidad y accesibilidad para los demas elementos del proyecto.

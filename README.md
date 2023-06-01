@@ -1,6 +1,6 @@
 # Midterm de Módulo de Interfaces
-Creado por A00827095 Omar Enrique Gonzalez Uresti\
+Creado por A00827095 Omar Enrique Gonzalez Uresti
 
-El siguiente repositorio contiene un proyecto de interfaces desarrollado para cumplir con requerimientos de una actividad; la cual consiste en mantener una imagen de una cámara y poder detectar objetos de color verdes. Utilizando una librería para multiplicar x 100 las coordenadas y herramientas como ROS, se pudo completar el proyecto que cumpliera con compartir esas coordenadas a través de gRPC. Para correr el proyecto es necesario descargar o clonar el proyecto entero, y correr mediante ROS los archivos greendetector.py (src/greendetector_pkg/src/scripts) y camera_node.py. Así como correr mediante python el wrapper.py (src/greendetector_pkg); para correr el cliente, se debe correr de forma manual el App.java (demo/src/main/java/com/example)\
+El siguiente repositorio contiene un proyecto de interfaces desarrollado para cumplir con requerimientos de una actividad; la cual consiste en mantener una imagen de una cámara y poder detectar objetos de color verdes. Utilizando una librería para multiplicar x 100 las coordenadas y herramientas como ROS, se pudo completar el proyecto que cumpliera con compartir esas coordenadas a través de gRPC. Para correr el proyecto es necesario descargar o clonar el proyecto entero, y correr mediante ROS los archivos greendetector.py (src/greendetector_pkg/src/scripts) y camera_node.py. Así como correr mediante python el wrapper.py (src/greendetector_pkg); para correr el cliente, se debe correr de forma manual el App.java (demo/src/main/java/com/example)
 
-[Video del funcionamiento del proyecto 1-6](https://drive.google.com/file/d/18alpSspqbAz9N9cohV8vlG9BrF_xSmMz/view?usp=sharing)\
+[Video del funcionamiento del proyecto 1-6](https://drive.google.com/file/d/18alpSspqbAz9N9cohV8vlG9BrF_xSmMz/view?usp=sharing)

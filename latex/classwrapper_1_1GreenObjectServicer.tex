@@ -1,0 +1,103 @@
+\hypertarget{classwrapper_1_1GreenObjectServicer}{}\doxysection{wrapper.\+Green\+Object\+Servicer Class Reference}
+\label{classwrapper_1_1GreenObjectServicer}\index{wrapper.GreenObjectServicer@{wrapper.GreenObjectServicer}}
+
+
+Inheritance diagram for wrapper.\+Green\+Object\+Servicer\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=240pt]{classwrapper_1_1GreenObjectServicer__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for wrapper.\+Green\+Object\+Servicer\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=240pt]{classwrapper_1_1GreenObjectServicer__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classwrapper_1_1GreenObjectServicer_a6b2c9c7414b93958a3fda3b05a464479}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self)
+\item 
+def \mbox{\hyperlink{classwrapper_1_1GreenObjectServicer_aa28910acc29140d7b215ede186e96979}{Publish\+Object\+Coordinates}} (self, request, context)
+\item 
+def \mbox{\hyperlink{classwrapper_1_1GreenObjectServicer_ab57d9309cb9cb679c0d72085a151537b}{coord\+\_\+callback}} (self, Int32\+Multi\+Array data)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classwrapper_1_1GreenObjectServicer_aff1e3c11895003c9c57977b8c9f06e9e}\label{classwrapper_1_1GreenObjectServicer_aff1e3c11895003c9c57977b8c9f06e9e}} 
+{\bfseries x}
+\item 
+\mbox{\Hypertarget{classwrapper_1_1GreenObjectServicer_ab673cce166c1089ef5ef2ee9d92934e9}\label{classwrapper_1_1GreenObjectServicer_ab673cce166c1089ef5ef2ee9d92934e9}} 
+{\bfseries y}
+\item 
+\mbox{\Hypertarget{classwrapper_1_1GreenObjectServicer_a53066e210ff4d20aadbd13617530ace2}\label{classwrapper_1_1GreenObjectServicer_a53066e210ff4d20aadbd13617530ace2}} 
+{\bfseries server}
+\item 
+\mbox{\Hypertarget{classwrapper_1_1GreenObjectServicer_a55dc0f35ffd9c92eb9c7fbe0970a85cb}\label{classwrapper_1_1GreenObjectServicer_a55dc0f35ffd9c92eb9c7fbe0970a85cb}} 
+{\bfseries timestamp}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}@class GreenObjectServicer
+@brief Clase que implementa el servicio gRPC GreenObjectService.
+
+Esta clase es responsable de manejar las solicitudes del cliente y proporcionar
+respuestas correspondientes.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classwrapper_1_1GreenObjectServicer_a6b2c9c7414b93958a3fda3b05a464479}\label{classwrapper_1_1GreenObjectServicer_a6b2c9c7414b93958a3fda3b05a464479}} 
+\index{wrapper.GreenObjectServicer@{wrapper.GreenObjectServicer}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!wrapper.GreenObjectServicer@{wrapper.GreenObjectServicer}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def wrapper.\+Green\+Object\+Servicer.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Constructor de la clase GreenObjectServicer.
+
+Se encarga de inicializar el servidor gRPC y agregar los servicios proporcionados.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classwrapper_1_1GreenObjectServicer_ab57d9309cb9cb679c0d72085a151537b}\label{classwrapper_1_1GreenObjectServicer_ab57d9309cb9cb679c0d72085a151537b}} 
+\index{wrapper.GreenObjectServicer@{wrapper.GreenObjectServicer}!coord\_callback@{coord\_callback}}
+\index{coord\_callback@{coord\_callback}!wrapper.GreenObjectServicer@{wrapper.GreenObjectServicer}}
+\doxysubsubsection{\texorpdfstring{coord\_callback()}{coord\_callback()}}
+{\footnotesize\ttfamily def wrapper.\+Green\+Object\+Servicer.\+coord\+\_\+callback (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{Int32\+Multi\+Array}]{data }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Método de devolución de llamada para procesar las coordenadas del objeto.
+
+Recibe las coordenadas del objeto y actualiza los valores correspondientes.
+
+@param data: Coordenadas del objeto.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{classwrapper_1_1GreenObjectServicer_aa28910acc29140d7b215ede186e96979}\label{classwrapper_1_1GreenObjectServicer_aa28910acc29140d7b215ede186e96979}} 
+\index{wrapper.GreenObjectServicer@{wrapper.GreenObjectServicer}!PublishObjectCoordinates@{PublishObjectCoordinates}}
+\index{PublishObjectCoordinates@{PublishObjectCoordinates}!wrapper.GreenObjectServicer@{wrapper.GreenObjectServicer}}
+\doxysubsubsection{\texorpdfstring{PublishObjectCoordinates()}{PublishObjectCoordinates()}}
+{\footnotesize\ttfamily def wrapper.\+Green\+Object\+Servicer.\+Publish\+Object\+Coordinates (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{request,  }\item[{}]{context }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Método para publicar las coordenadas del objeto.
+
+Recibe una solicitud del cliente y devuelve las coordenadas del objeto como respuesta.
+
+@param request: Solicitud del cliente.
+@param context: Contexto de la solicitud.
+
+@return Respuesta con las coordenadas del objeto.
+\end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+wrapper.\+py\end{DoxyCompactItemize}
